@@ -71,19 +71,19 @@ During verification, simulation logs and DUT responses are analyzed to identify 
 
 The actual result of each test is determined from its simulation log and the checks implemented in the testbench.
 
+
+
 ## My Contributions
 
-My main work in this team project focused on AHB and keypad verification.
+- Developed sensor verification sequences and test cases using SystemVerilog and UVM.
+- Worked on sensor reset, activation, debounce, and multi-zone verification.
+- Developed motion qualification test scenarios to verify motion detection in `ARMED_STAY` and `ARMED_AWAY` security modes.
+- Analyzed motion qualification simulation logs and waveforms to investigate alarm activation failures.
+- Worked on sensor fault detection scenarios and reviewed the corresponding simulation results.
+- Verified expected zone status against DUT responses using sensor checkers.
+- Analyzed UVM logs and waveforms to identify functional mismatches and debug sensor-related issues.
 
-- Developed AHB verification sequences and tests.
-- Checked register read and write operations.
-- Verified register readback behavior.
-- Developed keypad test scenarios.
-- Tested valid and invalid PIN responses.
-- Worked on keypad lockout and recovery verification.
-- Analyzed simulation logs and investigated failures.
-
-Sensor verification was also covered as part of the team's work.
+AHB and keypad verification were also covered as part of the team's work, including register read/write operations, PIN authentication, keypad lockout, and recovery testing.
 
 ## Run the Project
 
